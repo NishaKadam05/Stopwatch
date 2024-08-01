@@ -1,0 +1,83 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.heading{
+    text-align: center;
+    color: rgb(19, 19, 82);
+    margin-top: 50px;
+}
+
+.section {
+    width: 500px;
+    height: 700px;
+    border: 1px solid;
+    padding: 50px;
+    background-color: rgb(19, 19, 82);
+    margin-top: 50px;
+    margin-left: 700px;
+}
+
+.container{
+    border: 1px solid rgb(118, 118, 165);
+    width: 500px;
+    height: 400px;
+    text-align: center;
+    padding-top: 100px;
+    color: white;
+    background-color: rgb(133, 133, 158);
+}
+
+button {
+    width: 80px;
+    height: 30px;
+    color: white;
+}
+
+#start{
+    background-color: green;
+    border: 1px solid green;
+    border-radius: 6px;
+}
+
+#start:hover{
+    background-color: rgb(19, 77, 19);
+    border: 1px solid rgb(19, 77, 19);
+}
+
+#lap{
+    background-color: orange;
+    border: 1px solid orange;
+    border-radius: 6px;
+}
+
+#lap:hover{
+    background-color: rgb(198, 130, 4);
+    border: 1px solid rgb(198, 130, 4);
+}
+
+#stop{
+    background-color: red;
+    border: 1px solid red;
+    border-radius: 6px;
+}
+
+#stop:hover{
+    background-color: rgb(99, 24, 24);
+    border: 1px solid rgb(99, 24, 24);
+}
+
+#reset{
+    background-color: purple;
+    border: 1px solid purple;
+    border-radius: 6px;
+}
+
+#reset:hover{
+    background-color: rgb(74, 14, 74);
+    border: 1px solid rgb(74, 14, 74);
+}
+
+#lap-times {
+    margin-top: 20px;
+}
